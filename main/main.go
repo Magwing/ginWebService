@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	httpServer := server.NewServer(":8080")
+	httpServer := server.NewServer(":8989")
 	server.Run(httpServer)
 }
